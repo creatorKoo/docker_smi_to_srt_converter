@@ -1,0 +1,4 @@
+FROM python:2.7-alpine
+RUN pip install chardet
+COPY smi2srt.py /
+CMD ["python", "smi2srt.py"]
