@@ -14,3 +14,6 @@ docker run --rm -v <dir_to_convert>:/videos smi2srt
 * Recursive file searching
 * Convert smi file to srt file
 * Each file backup to each 'smi_backup' sub-directory
+
+## Docker Hub
+https://hub.docker.com/r/creatorkoo/smi2srt/
