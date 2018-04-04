@@ -3,10 +3,10 @@ docker image for smi subtitle file convert to srt subtitle file
 
 ## How to use
 ```
-docker run --rm -v <dir_to_convert>:/videos smi2srt
+docker run --rm -v <dir_to_convert>:/videos creatorkoo/smi2srt
 
 # Example
-# docker run --rm -v $(pwd)/sample:/videos smi2srt
+# docker run --rm -v $(pwd)/sample:/videos creatorkoo/smi2srt
 ```
 
 ## Result
